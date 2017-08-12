@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+    text-align: center ;
+}
+
+video{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    
+    top: 50%;
+    left: 50%;
+    
+    transform:  translateX(-50%) translateY(-50%);
+    
+    /*poner video de fondo*/
+    z-index: -1;
+    
+    /*efecto*/
+    /*-webkit-filter: grayscale(100%);*/
+    
+}
+
+div{
+    
+    display: block;
+    text-align: center;
+    position: static;
+    
+        
+}
